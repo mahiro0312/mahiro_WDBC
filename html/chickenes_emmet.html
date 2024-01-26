@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- main>section>h1で可能 入れ子でタグを作りたいときに使える-->
+    <main>
+      <section>
+        <h1>>を使ったショートカット</h1>
+        入れ子でタグを作りたいときに使える
+      </section>
+    </main>
+
+    <!-- div+p+bqで可能 兄弟要素を入れたいときに使える -->
+    <div></div>
+    <p></p>
+    <blockquote></blockquote>
+
+    <!-- div+div>p>span+em^bqで可能 一つ上に行きたいときに使える -->
+    <div></div>
+    <div>
+      <p><span></span><em></em></p>
+      <blockquote>ここは^でpと兄弟要素にしている</blockquote>
+    </div>
+
+    <!-- ul>li*10で可能 まとめてリストを作りたいときに使える -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+  </body>
+</html>

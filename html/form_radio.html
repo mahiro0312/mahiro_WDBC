@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>遊んでみよう</title>
+  </head>
+  <body>
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" />
+      <button>Googleで検索</button>
+    </form>
+
+    <form action="https://www.youtube.com/results">
+      <input type="text" name="search_query" />
+      <button>YouTubeで検索</button>
+    </form>
+
+    <h2>あなたはどっちのモンスター？</h2>
+
+    <!-- checkedをつけたら、デフォルトでチェックがついた状態になる -->
+    <form action="/monster">
+      <input id="dragon" type="checkbox" name="dragon" />
+      <label for="dragon">ドラゴン</label>
+      <input id="titan" type="checkbox" name="titan" />
+      <label for="titan">巨人</label>
+      <input id="none" type="checkbox" name="none" checked />
+      <label for="none">どちらでもない</label>
+
+      <button type="submit">送信</button>
+    </form>
+
+    <h2>どのお菓子がすき？</h2>
+    <form action="/sweet">
+      <label for="cake">ショートケーキ</label>
+      <input type="radio" name="sweet" id="cake" value="cake" />
+      <label for="manju">まんじゅう</label>
+      <input type="radio" name="sweet" id="manju" value="manju" />
+      <label for="cookie">クッキー</label>
+      <input type="radio" name="sweet" id="cookie" value="cookie" />
+
+      <button type="submit">送信！</button>
+    </form>
+
+    <h2>何説を信じる？</h2>
+    <!-- optionのvalue属性がHTTP通信で送信される方 -->
+    <form action="/earth">
+      <label for="earth">何を信じるか選択してね</label>
+      <select name="earth" id="earth">
+        <option value="helio">地動説を信じます</option>
+        <option value="ptole" selected>天動説を信じます</option>
+        <option value="unknown">どっちも信じません</option>
+      </select>
+      <button type="submit">送信！</button>
+    </form>
+  </body>
+</html>

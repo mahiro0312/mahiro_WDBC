@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>バリデーションされたフォーム</title>
+  </head>
+  <body>
+    <h1>バリデーションされたフォーム</h1>
+    <main>
+      <div>
+        <form action="/register">
+          <label for="username">名前</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            required
+            minlength="5"
+            maxlength="20"
+          />
+          <button>送信</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

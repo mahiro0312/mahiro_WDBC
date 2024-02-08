@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+
+h2 {
+    text-align: right;
+    text-decoration: line-through;
+}
+
+h3 {
+    text-align: left;
+    text-decoration: orange underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2.5;
+}

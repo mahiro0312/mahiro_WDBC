@@ -1,0 +1,32 @@
+/* * {
+    background-color: aquamarine;
+} */
+
+h1, h2 {
+    color: azure;
+}
+
+#go {
+    background-color: #8ecae6;
+}
+
+#back {
+    background-color: #219ebc;
+}
+
+.bold {
+    color: orangered;
+    background-color: bisque;
+}
+
+section h2{
+    color: #ffb703;
+}
+
+input + button{
+    color: #fb8500;
+}
+
+div > p{
+    font-size: larger;
+}

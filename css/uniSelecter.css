@@ -30,3 +30,27 @@ input + button{
 div > p{
     font-size: larger;
 }
+
+input[type="text"]{
+    text-align: right;
+}
+
+a[href*="google"]{
+    color: #fb8500;
+}
+
+/* ポストクラスの中のbuttonがホバーされたとき */
+.post button:hover {
+    background-color: firebrick;
+
+}
+
+p::first-letter{
+    color: #fb8500;
+    font-size: 40px;
+    background-color: #8ecae6;
+}
+
+h1, h2{
+    color: #fb8500;
+}

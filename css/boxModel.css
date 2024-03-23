@@ -1,0 +1,11 @@
+div {
+    width: 200px;
+    background-color: aquamarine;
+    border-style: groove; /*先にスタイルを指定する*/
+    border-color: brown;
+    box-sizing: border-box; /*元のボックスのサイズで固定する*/
+}
+
+p {
+    
+}
